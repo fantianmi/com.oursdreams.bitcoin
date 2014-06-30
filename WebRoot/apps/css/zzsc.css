@@ -1,0 +1,20 @@
+.applist *{ padding:0; margin:0; font-size:12px; font-family:'Microsoft YaHei';}
+.applist img{ border:0;width:130px}
+.clearfix:after { content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html .clearfix {height:1%;}  
+.applist{clear:both;position:relative;z-index:1;left:0;top:0;}
+.applist li{float:left;width:75px;height:75px;overflow:hidden}
+.applist a{display:block}
+.appdetail{position:absolute;z-index:1;left:0;top:0;width:300px;height:150px;overflow:hidden;display:none}
+.appdetail_m{position:absolute;z-index:2;left:0;top:0;width:300px;height:150px;background:#000;opacity:.9; filter:alpha(opacity=90);}
+.appdetail_w{position:absolute;z-index:9;left:0;top:0;padding:5px;width:290px;height:140px;overflow:hidden}
+.appdetail_w img{}
+.appdetail_n{float:right;color:#fff;font-size:14px;}
+.appdetail_n h3{font-size:14px;display:block;width:130px;height:30px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.appdetail_s{text-align:right;font-size:12px;color:#FFC000;padding-top:20px;padding-right:15px}
+.applist .app_more{width:150px;height:75px;line-height:75px;background:#169AFF;overflow:hidden}
+.app_more a{display:block;color:#D8EEFF}
+.app_more span{font-size:20px;display:block;float:left;margin-left:20px;_margin-left:12px}
+.app_more_arr{width:15px;height:32px;margin-top:24px;background:url(../images/icon.png) no-repeat;}
+.app_more_current a{color:#fff}
+.app_more_current .app_more_arr{background-position:-89px -190px}

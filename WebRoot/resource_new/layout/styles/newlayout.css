@@ -1,0 +1,49 @@
+.table caption + thead tr:first-child th, .table colgroup + thead tr:first-child th, .table thead:first-child tr:first-child th, .table caption + thead tr:first-child td, .table colgroup + thead tr:first-child td, .table thead:first-child tr:first-child td {
+    border-top: 0px none;
+}
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+}
+
+.text-danger {
+    color: #B94A48;
+}
+.text-success {
+    color: #468847;
+}
+#orderlist table{border:none}
+#orderlist{background-color: #FAFAFA}
+
+#tabtable table tbody tr td{text-align: center}
+#tabtable table tbody tr:hover{background-color: #84c6f8}
+#tabli{width:91px;background-color:#fff}
+
+.newslist li{color:#fff;border-bottom: 1px solid #000; border-left:5px solid #0171C7;height:40px;line-height: 10px;}
+.newslist li:hover{background-color: #61737a;border-left:5px solid #fff;}
+.newslist p{margin-left:5px;}
+.newslist .title{font-size: 14px; color:#fff;}
+.newslist .rtime{font-size: 12px; color:#899092;}
+
+#buttonlayout{margin:0 auto;text-align: center}
+#buttonlayout li{float:left; list-style: none;margin:10px}
+
+.numinput{
+height: 28px;
+border: 1px solid #cccccc;
+line-height: 28px;
+font-weight: bold;
+padding-left: 10px;
+cursor: pointer;
+padding-right: 12px;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.input-1x{width:30px}
+.input-2x{width:60px}
+.input-3x{width:90px}
+.input-4x{width:120px}
+

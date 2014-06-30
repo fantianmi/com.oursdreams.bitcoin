@@ -1,0 +1,120 @@
+#btc_nav {
+	max-width: 1100px;
+	margin: 0px auto;
+	height:50px;
+	background:#0171C7;
+	font-size:1.5em;
+	text-align:center;
+	list-style:none;
+	z-index:9999999
+}
+#btc_nav a {
+	font-size:0.8em;
+	color:#FFF;
+	text-decoration:none;
+	
+}
+#btc_nav li ul {
+	display:none;
+}
+.navtitle{margin-top: 10px;}
+#btc_nav li ul li {
+	float:none;
+}
+#btc_nav li ul li ul{
+	margin:0;
+	padding:0;
+}
+*html #btc_nav li ul li {
+	display:inline;
+}
+#btc_nav li ul a {
+	float:none;
+	height:32px;
+	line-height:32px;
+	padding:0 10px;
+	text-transform:capitalize;
+	font-size: .65em;
+}
+#btc_nav .height-auto {
+	line-height:15px;
+	padding:5px 10px;
+}
+.second-menu, .third-menu, .fourth-menu {
+	list-style:none;
+	position:absolute;
+}
+.first-menu li {
+	float:left;
+	position:relative;
+}
+.first-menu a {
+	float:left;
+	display:block;
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	background:#0171C7;
+}
+.first-menu a:hover {
+	background:#4698ca;
+}
+.active{
+	background:#0171C7;
+}
+.active a{
+	background:#4698ca;
+}
+.second-menu {
+	top:37px;
+	right:0;
+}
+*html .second-menu {
+	right:-1px;
+	background:rgba(255,255,255,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#FFFFFF',endColorstr='#FFFFFF');/*兼容ie*/
+}
+.second-menu a {
+	font-size:.6em;
+}
+.second-menu a.btc {
+	background:#3a3a3a url(image/btc.gif) no-repeat right top;
+}
+.second-menu a.btc:hover {
+	background:#4698ca url(image/btc.gif) no-repeat right -32px;
+}
+.second-menu a.btc-02 {
+	background:#3a3a3a url(image/btc.gif) no-repeat right -64px;
+}
+.second-menu a.btc-02:hover {
+	background:#4698ca url(image/btc.gif) no-repeat right -110px;
+}
+.third-menu, .fourth-menu {
+	width:140px;
+	top:0;
+	left:177px;
+	background:rgba(255,255,255,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#FFFFFF',endColorstr='#FFFFFF');/*兼容ie*/
+}
+.third-menu a {
+	background:#4c4c4c;
+	font-weight:normal;
+	border-top:1px solid #595959;
+	border-left:1px solid #595959;
+	border-bottom:1px solid #333;
+	border-right:1px solid #333;
+}
+#subMgm {
+	width:140px;
+}
+#subMgm .third-menu {
+	margin:0;
+	padding:0;
+	left:177px;
+}
+#subMgm .fourth-menu {
+	left:177px;
+}
+#subMusic, #subNews {
+	width:140px;
+}

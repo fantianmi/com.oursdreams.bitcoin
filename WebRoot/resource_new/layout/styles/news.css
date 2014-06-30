@@ -1,0 +1,102 @@
+#infomations h1 {
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #B6B6B6;
+}
+.titleh1 {
+    width: 100%;
+    color: #4D5154;
+    border-bottom: 1px solid #DEDEDE;
+    line-height: 61px;
+}
+h1 {
+    font-size: 26px;
+    clear: both;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300 !important;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+h1 {
+    margin: 0.67em 0px;
+    font-size: 2em;
+}
+
+#latest_news ul {
+    margin: 20px 0px 0px 15px;
+    padding-left: 15px;
+    border-left: 1px solid #B6B6B6;
+}
+.list-unstyled {
+    padding-left: 0px;
+    list-style: none outside none;
+}
+div, input, select, textarea, span, img, table, td, th, p, a, button, ul, code, pre, li {
+    border-radius: 0px !important;
+}
+
+#latest_news li:before {
+    content: "●";
+    font-size: 22px;
+    position: absolute;
+    color: #0071C6;
+    left: -22px;
+}
+元素 {
+}
+#latest_news li {
+    position: relative;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #B6B6B6;
+}
+div, input, select, textarea, span, img, table, td, th, p, a, button, ul, code, pre, li {
+    border-radius: 0px !important;
+}
+.list-unstyled {
+    list-style: none outside none;
+}
+#dev_log ul, #new_look ul {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #B6B6B6;
+}
+.list-unstyled {
+    padding-left: 0px;
+    list-style: none outside none;
+}
+#new_look li:before {
+    color: #CE3027;
+    content: "●";
+    font-size: 22px;
+    position: absolute;
+    left: -22px;
+    top: -8px;
+}
+
+#new_look li {
+    color: #303E4E;
+    position: relative;
+    margin-bottom: 20px;
+}
+div, input, select, textarea, span, img, table, td, th, p, a, button, ul, code, pre, li {
+    border-radius: 0px !important;
+}
+.list-unstyled {
+    list-style: none outside none;
+}
+
+
+

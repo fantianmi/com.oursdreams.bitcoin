@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="com.bitcoin.cs.2.0.0"
+  id="myeclipse.1401338809959"
+  context-root="/bitcoin"
+  j2ee-spec="5.0"
+  archive="com.bitcoin.cs.2.0.0.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

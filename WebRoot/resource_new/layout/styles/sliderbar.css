@@ -1,0 +1,241 @@
+.full-screen-slider{width:100%;height:400px;}
+.login{ background-attachment:fixed; background-color:#CCCCCC; font-family:"微软雅黑";background:rgba(0,0,0,0.8);
+position:absolute; top:79px;; z-index:1999;right:8%;height:396px;width:250px;
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#FFFFFF',endColorstr='#FFFFFF');/*兼容ie*/
+}
+.label{ color:#666; font-size:18px; font-weight:bold}
+.login table tr td{ border-width:0px;}
+.login table tr td span{ color:#ffffff; font-size:14px;}
+.login table{border:solid #D54346; border-width:0 5px 0 0; color:#666;}
+.login input{    color: #666;background-color: #ffffff;border-color: #ffffff;margin-top: 5px;border-radius: 5px;resize: none;outline: medium none; height:30px; font-size:14px;
+padding: 5px;border: 1px solid #E5E4E3;box-sizing: border-box;
+}
+.login ul li{width:100%; height:30px; color:#666; font-weight:bold;  font-size:20px; font-family:"微软雅黑";}
+
+.customer-service-panel {background-color: #000; color: #FFF; padding: 5px 15px;}
+.customer-service-panel .customer-service {font-size: 24px;padding-bottom: 3px;margin-bottom: 3px;border-bottom: 1px solid #0171C7;}
+.customer-service-panel a {color: #FFF;}
+.lhead{height:65px;width:100%}
+.lhead span{font-size:22px;text-align: center;width:100%;color:#fff;margin-left:60px;line-height: 60px}
+.lform{margin-bottom: 10px}
+
+#index_account_panel .login-panel input:focus, #index_account_panel .login-panel input:active {color: #FFF;}
+#index_account_panel .login-panel input:hover, #index_account_panel .login-panel input:active, #index_account_panel .login-panel input:focus {border-color: #C6C8CB;}
+#index_account_panel .login-panel input {background-color: #121F27;border-color: #535B62;color: #AEB1BA;}
+
+#index_account_panel .login-panel, #index_account_panel .logged-panel {color: #AEB1BA;}
+
+.form-horizontal .form-group:after {
+    clear: both;
+}
+.form-horizontal .form-group:after {
+    clear: both;
+}
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+    display: table;
+    content: " ";
+}
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+    display: table;
+    content: " ";
+}
+.form-horizontal .form-group {
+    margin-right: 20px;
+    margin-left: 20px;;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+div, input, select, textarea, span, img, table, td, th, p, a, button, ul, code, pre, li {
+    border-radius: 0px !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    vertical-align: middle;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-control {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+ .login-control {
+    margin-bottom: 200px;
+    padding: 10px 0px;
+    line-height: 22px;
+}
+.link, a {
+    color: #118be8;
+}
+
+#registration {
+    font-size: 22px;
+}
+.link:hover, .link:active, .link:focus {
+    color: #118be8;
+    text-decoration: none;
+}
+
+.btn.blue:hover, .btn.blue:focus, .btn.blue:active, .btn.blue.active, .btn.blue[disabled], .btn.blue.disabled {
+    background-color: #118be8 !important;
+    color: #FFF !important;
+    outline: medium none !important;
+}
+.btn.blue {
+    background-color: #118be8;
+}
+.btn.blue {
+    color: #FFF;
+    text-shadow: none;
+    background-color: #0171C7;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    vertical-align: middle;
+}
+.btn {
+    border-width: 0px;
+    padding: 7px 14px;
+    font-size: 14px;
+    outline: medium none !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    text-shadow: none;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-user-select: none;
+}
+div, input, select, textarea, span, img, table, td, th, p, a, button, ul, code, pre, li {
+    border-radius: 0px !important;
+}
+button, input, select[multiple], textarea {
+    background-image: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0px;
+}
+
+.gray-link {
+    color: #AEB1BA;
+}
+.pull-right {
+    float: right;margin-right: 20px;
+}
+.pull-right {
+    float: right !important;
+}
+
+.logininput{height:40px;background-repeat: no-repeat; border-radius:0px; padding-left:50px}
+.username{background-image:url('/resource_new/images/yhm.jpg');}
+.password{background-image:url('resource_new/images/yhmm.jpg');}
+.logininput{height:40px;background-repeat: no-repeat; border-radius:0px; padding-left:50px}
+
+.btn.dark:hover, .btn.dark:focus, .btn.dark:active, .btn.dark.active, .btn.dark.disabled, .btn.dark[disabled] {
+    background-color: #222 !important;
+    color: #FFF !important;
+    outline: medium none !important;
+}
+.btn.dark {
+    color: #FFF;
+    text-shadow: none;
+    background-color: #555;
+}
+.btn-block + .btn-block {
+    margin-top: 5px;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+a, a:focus, a:hover, a:active {
+    outline: 0px none;
+}
+a:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+
+#index_account_panel .logged-panel .welcome {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFF;
+}
+

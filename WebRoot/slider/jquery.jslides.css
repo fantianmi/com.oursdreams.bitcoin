@@ -1,0 +1,8 @@
+﻿#full-screen-slider { width:100%; height:396px; margin-top:5px; position:relative}
+#slides { display:block; width:100%; height:396px; list-style:none; padding:0; margin:0; position:relative;z-index:0}
+#slides li { display:block; width:100%; height:100%; list-style:none; padding:0; margin:0; position:absolute}
+#slides li a { display:block; width:100%; height:100%; text-indent:-9999px}
+#pagination { display:block; list-style:none; position:absolute; left:100px; top:450px; z-index:9900;  padding:5px 15px 5px 0; margin:0}
+#pagination li { display:block; list-style:none; width:10px; height:10px; float:left; margin-left:15px; background:#FFF }
+#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;  text-indent:-9999px;}
+#pagination li.current { background:#0092CE}
